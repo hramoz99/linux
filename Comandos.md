@@ -422,7 +422,7 @@ Ctrl+Z
 fg [número_do_processo]
 ```
 
-#### Visualizar processos *PARARDO*
+#### Visualizar processos *PARADOS*
 ```
 jobs
 ```
