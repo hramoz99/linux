@@ -381,7 +381,7 @@ stat <nome_do_arquivo.extensão>
 
 #### Empacotador de arquivos 
 ```
-tar [opções] <dispositivo/arquivo> <arquivo1> <arquivo2>
+tar [opções] <nome_arquivo> <arquivo1> <arquivo2>
  
      Opções
          *-c ou -create  - inicia o empacotamento no arquivo
