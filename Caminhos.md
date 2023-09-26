@@ -5,7 +5,7 @@
   [usuário]@[nome da máquina]: ~$ (usuário)
 ```
 
-## Caminhos
+## `Caminhos`
 #### Arquivo que armazena o nome do Computador 
 ```
 /etc/hostname
@@ -28,8 +28,7 @@
 /etc/shadow 
 ```
 
-
-#### Arquivo de armazenamento dos LOGs do sistema
+#### Arquivo de armazenamento dos LOGS do sistema
 ```
 /var/log/syslog 
 ```
@@ -42,7 +41,7 @@
 #### Nome das interfaces
 ```
 lo - Loopback
-enp0s3 - Interface de Rede [Padrão antigo era eth0]
+enp0s3 - Interface de Rede
 ```
 
 #### Arquivo que contém as configurações das interfaces de REDE
