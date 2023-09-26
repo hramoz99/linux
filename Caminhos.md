@@ -81,19 +81,19 @@ echo '<html><h1>Senai Informática e AWS a parceria do futuro! </h1></html>' > /
 
 #### Editar o APACHE 
 ```
-vim ou nano /var/www/html/index.html  
+nano /var/www/html/index.html  
 ```
 
 #### Adicionar novas Chaves SSH
 ```
-vim ou nano /home/ec2-user/.ssh/authorized_keys
+nano /home/ec2-user/.ssh/authorized_keys
 ```
 
-#### Criare uma nova partição no DISCO 
+#### Criar uma nova partição no DISCO 
 ```
 fdisk /dev/xvdf
 
-n> p> enter> enter> enter> w
+n > p > enter > enter > enter > w
 ```
 
 #### Formatação de partição 
