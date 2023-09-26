@@ -1,11 +1,3 @@
-# LINUX
-```
-  [usuário]@[nome da máquina]: ~# (root)
-  
-  [usuário]@[nome da máquina]: ~$ (usuário)
-```
-    
-
 ### `COMANDOS`
 
 #### Apresentação do usuário logado 
