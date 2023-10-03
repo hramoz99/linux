@@ -9,7 +9,6 @@ whoami
 ```
 who -u
 ```
-
 #### Entrar com usuário ROOT
 ```
 sudo su -
@@ -66,6 +65,10 @@ cat [caminho]
 find [diretório] -name <nome_do_arquivo_ou_pasta>
       
         EX: find /etc/-name.conf
+```
+#### Bucar onde os programas estão instalados
+```
+which [nome_do_programa]
 ```
 
 #### Copiar arquivos 
