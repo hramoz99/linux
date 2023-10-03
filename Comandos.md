@@ -66,7 +66,7 @@ find [diretório] -name <nome_do_arquivo_ou_pasta>
       
         EX: find /etc/-name.conf
 ```
-#### Bucar onde os programas estão instalados
+#### Localizar instalação dos programas
 ```
 which [nome_do_programa]
 ```
