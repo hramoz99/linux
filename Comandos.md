@@ -124,6 +124,11 @@ deluser [usuario] [grupo]
 tail
 ```
 
+#### Contar o número de palavras, caracteres e linhas de um arquivo 
+```
+$ wc -w 
+```
+
 #### Exibir as últimas linhas de um arquivo em tempo real 
 ```
 tail -f 
