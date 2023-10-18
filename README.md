@@ -30,12 +30,6 @@ mkdir: Criar um novo diretório.
 ```
 rm: Excluir arquivos e diretórios.
 ```
-```
-cp: Copiar arquivos e diretórios.
-```
-```
-mv: Mover ou renomear arquivos e diretórios.
-```
 
 ## Caminhos Importantes
 Para navegar eficazmente no sistema de arquivos Linux, é fundamental conhecer alguns caminhos significativos:
