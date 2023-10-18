@@ -3,7 +3,7 @@
   <img src="https://github.com/hramoz99/linux/assets/78046279/51df470e-e5f0-4e63-bae6-0fe0c4641a83" width="200" alt="Descrição da imagem">
 </p>
 
-<p align="center">Este guia tem como objetivo fornecer uma introdução abrangente aos comandos e caminhos no Linux</p>
+<p align="center">Este guia tem como objetivo fornecer uma introdução aos comandos e caminhos no Linux</p>
 
 ## Conceitos Fundamentais
 
