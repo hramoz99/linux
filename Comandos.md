@@ -136,7 +136,9 @@ tail -f
 
 #### Filtrar informações específicas de um arquivo
 ```
-grep (junto com |)
+grep [nome] [local]
+| grep (saída_dados)
+
 ```
 
 #### Trocar o usuário DONO da pasta/arquivo
