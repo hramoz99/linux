@@ -136,11 +136,13 @@ tail -f
 
 #### Filtrar informações específicas de um arquivo
 ```
-grep [nome] [local]
-| grep (saída_dados)
-
+grep [String] [local]
 ```
 
+#### Pesquisar texto em saídas de comandos
+```
+| grep [String]
+```
 #### Trocar o usuário DONO da pasta/arquivo
 ```
 chown [usuario] [pasta/arquivo]
