@@ -17,7 +17,7 @@ sudo su -
 
 #### Movimentação entre pastas/arquivos
 ```
-cd [pasta]
+cd <pasta>
  
     *control a = vai para o inicio da linha
     *control e = vai para o fim da linha 
@@ -37,75 +37,75 @@ clear ou ctrl + l
 
 #### Criar pastas
 ```
-mkdir [nome_da_pasta]
+mkdir <ome-da-pasta>
 ```
 
 #### Criar pasta e sub-pastas SIMULTANEAMENTE
 ```
-mkdir -p [pasta]/[sub_pasta]
+mkdir -p <pasta>/<sub_pasta>
 ```
 
 #### Apagar arquivos 
 ```
-rm [nome_do_arquivo] 
+rm <nome-do-arquivo>
 ```
 
 #### Apagar pasta
 ```
-rm -r [nome_da_pasta]
+rm -r <nome-da-pasta>
 ```
 
 #### Visualizar arquivos 
 ```
-cat [caminho]
+cat <caminho>
 ```
 
 #### Parâmetro de busca de arquivos - **find**
 ```
-find [diretório] -name <nome_do_arquivo_ou_pasta>
+find <diretório> -name <nome-do-arquivo-ou-pasta>
       
         EX: find /etc/-name.conf
 ```
 #### Localizar instalação dos programas
 ```
-which [nome_do_programa]
+which <nome-do-programa>
 ```
 
 #### Copiar arquivos 
 ```
-cp <arquivo_de_origem> <arquivo_de_destino>
+cp <arquivo-de-origem> <arquivo-de-destino>
 ```
 
 #### Copiar pastas 
 ```
-cp -r <arquivo_de_origem> <arquivo_de_destino>
+cp -r <arquivo-de-origem> <arquivo-de-destino>
 ```
 
 #### Mover arquivos e pastas 
 ```
-mv <pasta_caminho> <pasta_destino>
+mv <pasta-caminho> <pasta-destino>
 ```
 
 #### Adicionar usuário 
 ```
-adduser [nome_do_usuário]
+adduser <nome-do-usuário>
 UID - Identificação numérica única do Usuário
 ```
 
 #### Deletar usuário 
 ```
-deluser [nome_do_usuário]
+deluser <nome-do-usuário>
 ```
 
 #### Adicionar grupo 
 ```
-addgroup [nome_do_grupo]
+addgroup <nome-do-grupo>
 GID - Identificação numérica única do Grupo
 ```
 
 #### Deletar grupo
 ```
-delgroup [nome_do_grupo]
+delgroup <nome-do-grupo>
 ```
 
 #### Trocar a senha de um usuário
@@ -136,30 +136,30 @@ tail -f
 
 #### Filtrar informações específicas de um arquivo
 ```
-grep [String] [local]
+grep <String> <local>
 ```
 
 #### Pesquisar texto em saídas de comandos
 ```
-| grep [String]
+| grep <String>
 ```
 #### Trocar o usuário DONO da pasta/arquivo
 ```
-chown [usuario] [pasta/arquivo]
+chown <usuario> <pasta/arquivo>
 
  OBS: Para trocar usuário e grupo dona da pasta ao mesmo tempo **chown usuario:grupo [pasta/arquivo]
 ```
 
 #### Trocar o grupo DONO da pasta/arquivo
 ```
-chgrp [grupo] [pasta/arquivo]
+chgrp <grupo> <pasta/arquivo>
 
  OBS: Para trocar os grupos donos de uma vez use **chgrp -R**
 ```
 
 #### Trocar as permissões de uma pasta/arquivo 
 ```
-chmod [permissao] [pasta/arquivo]
+chmod <permissao> <pasta/arquivo>
 
 
 
@@ -256,7 +256,7 @@ ifconfig (instalar apt-get install "net-tools")
 
 #### Limpar e solicitar um endereço IP novo para o DHCP
 ```
-ip add flush dev <nome_da_interface>
+ip add flush dev <nome-da-interface>
    
   Exemplo: ip add flush dev enp0s3
 ```
@@ -265,12 +265,12 @@ ip add flush dev <nome_da_interface>
 
 #### Desligar uma interface 
 ```
-ifdown [nome_da_interface]
+ifdown <nome-da-interface>
 ```
 
 #### Ligar uma interface 
 ```
-ifup [nome_da_interface]
+ifup <nome-da-interface>
 ```
 
 #### Visualizar os discos existentes 
@@ -285,7 +285,7 @@ df -h
 
 #### Criar arquivos vazios 
 ```
-touch [nome_do_arquivo]
+touch <nome-do-arquivo>
     
   EX: touch /mnt/disco2G/arquivo2.txt
 
@@ -297,7 +297,7 @@ init 0
 
 #### Defnir horário para a MÁQUINA desligar 
 ```
-Shutdown -h [horário] 
+Shutdown -h <horário> 
 ```
 
 #### Reiniciar a MÁQUINA 
@@ -306,7 +306,7 @@ reboot
 ```
 #### Visualizar uma variável
 ```
-echo $[nome_da_variável]
+echo $<nome-da-variável]
 ```
 
 
@@ -329,7 +329,7 @@ fc -l
 
 #### Informe os comandos selecionados ANTERIORMENTE 
 ```
-history [valor]
+history <valor>
 ```
 
 #### Versão do KERNEL
@@ -340,27 +340,27 @@ uname -a
 
 #### Explicação a função do comando 
 ```
-help [comando] 
+help <comando> 
 ```
 
 #### Explorador amplo da palavra chave 
 ```
-apropos [palavra_chave]
+apropos <palavra-chave>
 ```
 
 #### Exploração específica da palavra chave 
 ```
-whatis <palavra_chave>
+whatis <palavra-chave>
 ```
 
 #### Manual do comando 
 ```
-man [comando]
+man <comando>
 ```
 
 #### Manual do aruqivo de configuração 
 ```
-man [seção] [comando]
+man <seção> <comando>
 ```
 
 #### Consulta de comandos 
@@ -370,22 +370,22 @@ xman
  
 #### Pasta/Manual do Comando
 ```
-whereis [comando] 
+whereis <comando> 
 ```
      
 #### Cria novos arquivos 
 ```
-touch [nome_do_arquivo]
+touch <nome-do-arquivo>
 ```   
 
 #### Características de um arquivo
 ```
-stat <nome_do_arquivo.extensão>
+stat <nome-do-arquivo.extensão>
 ```
 
 #### Empacotador de arquivos 
 ```
-tar [opções] <nome_arquivo> <arquivo1> <arquivo2>
+tar [opções] <nome-arquivo> <arquivo1> <arquivo2>
  
      Opções
          *-c ou -create  - inicia o empacotamento no arquivo
@@ -423,7 +423,7 @@ Ctrl+Z
 
 #### Voltar os processos *PARADOS*
 ```
-fg [número_do_processo]
+fg <número-do-processo>
 ```
 
 #### Visualizar processos *PARADOS*
@@ -433,7 +433,7 @@ jobs
 
 #### Matar qualquer processo 
 ```
-kill [número_do_processo]
+kill <número-do-processo>
 ```
 
 #### Criar processos/prioridade
