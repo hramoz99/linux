@@ -322,6 +322,12 @@ alias
             abreviado [alias nat = "iptables -t nat -nL"]
 ```
 
+#### Cortar (extrair) seções específicas de linhas de um arquivo
+```
+cut -d ',' <nome-do-arquivo.csv>
+
+```
+
 #### Informe os 16 comandos selecionados ANTERIORMENTE
 ```
 fc -l
