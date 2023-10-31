@@ -233,10 +233,12 @@ ls -la
         :q! = Salvar de maneira "forçada"
         :wq = Salvar e sair
          v = Entrar no modo visual
-         y = Copiar
-         p = Colar
+         yy = Copiar
+         p = Colar abaixo
+         P = Colar acima
          u = Desfazer
          H = Cursor vai para a primeira linha do arquivo
+         G = Cursos vai para a última linha do arquivo
          dd = Deleta a linha 
          set nu = Numerar as linhas
 ```        
