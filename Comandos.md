@@ -208,6 +208,10 @@ ls -lR
 ```
 ls -la
 ```
+#### Listar as informações do sistema
+```
+lshw
+```
 
 #### Editores de texto para o terminal
 ```
