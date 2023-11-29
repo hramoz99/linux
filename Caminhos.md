@@ -121,11 +121,6 @@ mkdir /mnt/disco2G
 mount /dev/xvdf1 /mnt/disco2G
 ```
 
-#### Criar arquivos vazios
-```
-touch /mnt/disco2G/arquivo2.txt (exemplo)
-```
-
 #### Restaurar o Backup
 ```
 cp -a /mnt/disco2G/* /mnt/novo-disco30G/
