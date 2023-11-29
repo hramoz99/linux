@@ -133,7 +133,7 @@ cp -a /mnt/disco2G/* /mnt/novo-disco30G/
 
 #### Instalar pacotes
 ```
-apt install [nome_do_pacote]
+apt install <nome-do-pacote>
 ```
 
 #### Atualizar pacotes  
@@ -148,16 +148,16 @@ apt update
 
 #### Procurar arquivos 
 ```
-apt-cache search [nome_do_pacote]
+apt-cache search <nome-do-pacote>
 ```
 
 
 #### Verificar se o pacotes está instalado 
 ```
-aptitude search [nome_do_pacote]
+aptitude search <nome-do-pacote>
 ```
 
 #### Instalar, atualizar e procurar pacotes disponíveis 
 ```
-apt-get remove [nome_do_pacote] --purge
+apt-get remove <nome-do-pacote> --purge
 ```
