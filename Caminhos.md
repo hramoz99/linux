@@ -152,7 +152,7 @@ apt-cache search <nome-do-pacote>
 aptitude search <nome-do-pacote>
 ```
 
-#### Instalar, atualizar e procurar pacotes disponíveis 
+#### Desinstalar pacotes disponíveis 
 ```
 apt-get remove <nome-do-pacote> --purge
 ```
