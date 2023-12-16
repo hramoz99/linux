@@ -5,7 +5,7 @@
 whoami
 ```
 
-#### Informação de processamento 
+#### Exibir informações sobre usuários que estão atualmente conectados
 ```
 who -u
 ```
