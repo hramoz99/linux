@@ -51,5 +51,5 @@ Para navegar eficazmente no sistema de arquivos Linux, é fundamental conhecer a
 /sbin e /usr/sbin: Diretórios que contêm executáveis do sistema para administração.
 ```
 ```
-/tmp: Diretório temporário para arquivos temporários
+/tmp: Diretório para arquivos temporários
 ```
