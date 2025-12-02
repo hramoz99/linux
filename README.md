@@ -9,6 +9,8 @@
 - `Sistema Operacional Linux`
 
 - `Shell`
+  
+- `Bash`
 
 - `Permissões de Arquivos`
 
